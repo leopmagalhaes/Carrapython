@@ -11,7 +11,7 @@ contadorBalada=0
 """esse contador será responsável por atribuir os valores das cores (0,1,2) à imagemBalada"""
 while(True):
      existeFrame, frame = cap.read()
-     """Frane é o nome da variavel que vai receber o frame capturado na função cap.read()"""
+     """Frame é o nome da variavel que vai receber o frame capturado na função cap.read()"""
      """a variável existeFrame receberá apenas a informação de existência de um frama válido (verdadeiro ou falso), se a variável frame recebe um frame válido, existeFrama será True, caso contrário será false"""
      altura, largura, _ = frame.shape
      """atribui as medidas do frame à altura, largura e canais de cores. Não é necessário informar o canal de cor por isso usa '_'."""
