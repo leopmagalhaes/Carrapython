@@ -9,7 +9,7 @@ import cv2
 
 """carregando e mostrando uma imagem"""
 
-imagemTeste = cv2.imread("fzea.png")
+imagemTeste = cv2.imread("fzea.jpeg")
 
 cv2.imshow("imagem orignal", imagemTeste)
 
