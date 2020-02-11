@@ -48,7 +48,8 @@ def contar_objetos(img):
         	pintado += 5  
     print 'Quantidade de objetos:', total_objetos;
 
-img=cv2.imread('fundobranco.jpeg', 0)
+img=cv2.imread('microscopio2.jpg', 0)
+cv2.imshow("original", img)
 #blur = cv2.GaussianBlur(img,(9,9),0)
 #ret,imgT = cv2.threshold(blur,0,255,cv2.THRESH_BINARY+cv2.THRESH_OTSU)
 ret, imgT = cv2.threshold(img, 50, 255, cv2.THRESH_BINARY_INV)
